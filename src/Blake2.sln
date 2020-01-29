@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2043
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blake2.Bench", "..\tests\Blake2.Bench\Blake2.Bench.csproj", "{C19EDB86-A15B-4E95-9B7F-DC9D725F70F1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blake2.Test", "..\tests\Blake2.Test\Blake2.Test.csproj", "{791618B6-C4AC-4859-8259-589416D0864A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blake2Fast", "Blake2Fast\Blake2Fast.csproj", "{D9ABAAEA-7766-497A-88F5-92FF501B51EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1C8C3AF-8ADD-4F89-9F4A-4021384598C3}"
+	ProjectSection(SolutionItems) = preProject
+		..\tests\runsettings = ..\tests\runsettings
+		..\tests\runsettingsX64 = ..\tests\runsettingsX64
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
