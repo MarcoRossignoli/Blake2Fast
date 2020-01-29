@@ -1,0 +1,1 @@
+dotnet test tests\Blake2.Test --collect:"XPlat Code Coverage" -c debug --settings ./tests/runsettingsx64 --diag:log.txt /bl
