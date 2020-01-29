@@ -1,0 +1,6 @@
+<RunSettings>
+	<RunConfiguration>
+		<DisableAppDomain>true</DisableAppDomain>
+		<ResultsDirectory>..\out\testresults</ResultsDirectory>
+	</RunConfiguration>
+</RunSettings>
